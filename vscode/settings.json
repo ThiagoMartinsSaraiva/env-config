@@ -1,0 +1,13 @@
+{
+    "editor.bracketPairColorization.enabled": false,
+    "terminal.integrated.profiles.windows": {
+        "Cmder": {
+            "path": "${env:windir}\\System32\\cmd.exe",
+            "args": ["/k", "C:\\Users\\thiag\\Downloads\\cmder_mini\\vendor\\bin\\vscode_init.cmd"],
+            "icon": "terminal-debian",
+            "color": "terminal.ansiRed"
+          }
+    },
+    "terminal.integrated.defaultProfile.windows": "Cmder",
+    "security.workspace.trust.untrustedFiles": "open"
+}
